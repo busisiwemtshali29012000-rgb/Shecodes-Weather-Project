@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  text-align: center;
+}
+
+.app {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Header */
+header h1 {
+  margin-bottom: 5px;
+}
+
+header p {
+  opacity: 0.8;
+  font-size: 14px;
+}
+
+/* Cards */
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 15px;
+  margin: 15px 0;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+/* Inputs */
+input {
+  padding: 10px;
+  width: 65%;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #00c6ff;
+  color: black;
+  font-weight: bold;
+}
+
+/* Weather Card */
+.weather-card img {
+  width: 80px;
+}
+
+/* Forecast */
+.forecast {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.forecast div {
+  background: rgba(255,255,255,0.1);
+  padding: 10px;
+  border-radius: 10px;
+  width: 110px;
+}
+
+/* Loading */
+.hidden {
+  display: none;
+}
+
+#loading {
+  margin: 10px;
+  font-style: italic;
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+footer a {
+  color: #00c6ff;
+  text-decoration: none;
+}
+
+.small {
+  font-size: 12px;
+  opacity: 0.6;
+}
